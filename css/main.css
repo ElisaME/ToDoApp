@@ -39,12 +39,21 @@ input[type="text"]{
 	list-style: none;
 	text-align: left;
 }
-/* #todolist li:hover:after {
-    content: '✔';
-    color: #060;
-    position: absolute;
-    right: 5px;    
-}*/
+#todoList li{
+	position: relative;
+	margin-bottom: 5px;
+}
+.removeMe{
+	background-color:transparent !important; 
+	right: 0;
+	position: absolute;
+	border: 1px solid #3E79AC;
+	border-radius: 3px;
+}
+.icono{
+	font-size: 20px !important;
+	color:#3E79AC !important;
+}
 .center{
 	padding: 2%;
 	width: 50%;
